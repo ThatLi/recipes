@@ -1,0 +1,78 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 0 12px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+ul, ol {
+    margin: 12px;
+}
+
+li {
+    margin: 10px;
+}
+
+.menu {
+    display: flex;
+}
+
+.banner {
+    background-color: #f2d6d0;
+    padding: 12px 10%;
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.home {
+    display: inline-block;
+    margin-left: auto;
+    padding: 12px 24px;
+}
+
+.content-1 {
+    display: flex;
+    gap: 24px;
+    margin: 24px 10%;
+}
+
+.description {
+    padding-top: 0;
+    width: 45%;
+}
+
+.description p {
+    line-height: 1.5;
+    font-style: italic;
+}
+
+.content-2 {
+    margin: 24px 10%;
+    border: 6px solid #f2d6d0;
+    padding: 6px 24px;
+}
+
+.content-3 {
+    margin: 24px 10%;
+    margin-bottom: 24px;
+    border: 6px;
+    padding: 6px 24px;
+}
+
+iframe {
+    margin: 24px;
+}
