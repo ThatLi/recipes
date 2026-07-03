@@ -27,8 +27,9 @@ li {
     margin: 10px;
 }
 
-.menu {
+.menu ul {
     display: flex;
+    margin: 12px 10%;
 }
 
 .banner {
